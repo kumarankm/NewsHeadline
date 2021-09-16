@@ -1,7 +1,7 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
-driver = webdriver.Chrome(".\chromedriver_win32\chromedriver.exe")
-driver.get(r'C:\Users\Admin\Desktop\Headline detector\buildd\index.html')
+driver = webdriver.Chrome("chromedriver_win32\chromedriver.exe")
+driver.get(r'C:\Users\Admin\Desktop\Headline detector\index.html')
 
 i = 1
 arr = []
